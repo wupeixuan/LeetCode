@@ -6,13 +6,6 @@ package Array;
  * 给定一个序列（至少含有 1 个数），从该序列中寻找一个连续的子序列，使得子序列的和最大。
  * 例如，给定序列 [-2,1,-3,4,-1,2,1,-5,4]，
  * 连续子序列 [4,-1,2,1] 的和最大，为 6。
- * 分析：
- * maxSum 必然是以nums[i](取值范围为nums[0] ~ nums[n-1])结尾的某段构成的，也就是说maxSum的candidate必然是以nums[i]结果的。如果遍历每个candidate，然后进行比较，那么就能找到最大的maxSum了。
- * 假设把nums[i]之前的连续段叫做sum。可以很容易想到:
- * 1. 如果sum>=0，就可以和nums[i]拼接在一起构成新的sum。因为不管nums[i]多大，加上一个正数总会更大，这样形成一个新的candidate。
- * 2. 反之，如果sum<0，就没必要和nums[i]拼接在一起了。因为不管nums[i]多小，加上一个负数总会更小。此时由于题目要求数组连续，所以没法保留原sum，所以只能让sum等于从nums[i]开始的新的一段数了，这一段数字形成新的candidate。
- * 3. 如果每次得到新的candidate都和全局的maxSum进行比较，那么必然能找到最大的max sum subarray.
- * 在循环过程中，用maxSum记录历史最大的值。从nums[0]到nums[n-1]一步一步地进行。
  */
 public class LeetCode53 {
     public static void main(String[] args) {
@@ -20,7 +13,17 @@ public class LeetCode53 {
         System.out.println(maxSubArray(arr));
     }
 
-
+    /**
+     * maxSum 必然是以nums[i](取值范围为nums[0] ~ nums[n-1])结尾的某段构成的，也就是说maxSum的candidate必然是以nums[i]结果的。如果遍历每个candidate，然后进行比较，那么就能找到最大的maxSum了。
+     * 假设把nums[i]之前的连续段叫做sum。可以很容易想到:
+     * 1. 如果sum>=0，就可以和nums[i]拼接在一起构成新的sum。因为不管nums[i]多大，加上一个正数总会更大，这样形成一个新的candidate。
+     * 2. 反之，如果sum<0，就没必要和nums[i]拼接在一起了。因为不管nums[i]多小，加上一个负数总会更小。此时由于题目要求数组连续，所以没法保留原sum，所以只能让sum等于从nums[i]开始的新的一段数了，这一段数字形成新的candidate。
+     * 3. 如果每次得到新的candidate都和全局的maxSum进行比较，那么必然能找到最大的max sum subarray.
+     * 在循环过程中，用maxSum记录历史最大的值。从nums[0]到nums[n-1]一步一步地进行。
+     *
+     * @param nums
+     * @return
+     */
     public static int maxSubArray(int[] nums) {
         int sum = 0; //或者初始化为  sum = INT_MIN 也OK。
         int maxSum = nums[0];
