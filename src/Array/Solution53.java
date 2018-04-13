@@ -1,7 +1,6 @@
 package Array;
 
 /**
- * 题目：
  * 最大子序和
  * 给定一个序列（至少含有 1 个数），从该序列中寻找一个连续的子序列，使得子序列的和最大。
  * 例如，给定序列 [-2,1,-3,4,-1,2,1,-5,4]，
@@ -9,8 +8,9 @@ package Array;
  */
 public class Solution53 {
     public static void main(String[] args) {
+        Solution53 solution53 = new Solution53();
         int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.out.println(maxSubArray(arr));
+        System.out.println(solution53.maxSubArray(arr));
     }
 
     /**
@@ -24,7 +24,7 @@ public class Solution53 {
      * @param nums
      * @return
      */
-    public static int maxSubArray(int[] nums) {
+    public int maxSubArray(int[] nums) {
         int sum = 0; //或者初始化为  sum = INT_MIN 也OK。
         int maxSum = nums[0];
         for (int i = 0; i < nums.length; i++) {
@@ -51,7 +51,7 @@ public class Solution53 {
      * 这样就可以节省空间了。
      * 时间复杂度：O(n)     空间复杂度：O(1)
      */
-    public static int maxSubArray_2(int[] nums) {
+    public int maxSubArray_2(int[] nums) {
         int sum = 0; //或者初始化为  sum = INT_MIN 也OK。
         int maxSum = nums[0];
         //动态规划
