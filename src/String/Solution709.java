@@ -11,6 +11,12 @@ public class Solution709 {
         System.out.println(solution709.toLowerCase(str));
     }
 
+    /**
+     * 字符串转char数组，遍历数组，判断如果大写就转小写
+     *
+     * @param str
+     * @return
+     */
     public String toLowerCase(String str) {
         char[] s = str.toCharArray();
         for (int i = 0; i < str.length(); i++) {
