@@ -16,6 +16,13 @@ public class Solution771 {
         System.out.println(solution771.numJewelsInStones(J, S));
     }
 
+    /**
+     * 两两比较J和S中的字符，若相同则加1。
+     *
+     * @param J
+     * @param S
+     * @return
+     */
     public int numJewelsInStones(String J, String S) {
         int num = 0;
         int lenJ = J.length();
