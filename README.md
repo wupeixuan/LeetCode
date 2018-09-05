@@ -2,6 +2,7 @@
 #|题目|难度
 ---|---|---
 1|[两数之和](http://www.cnblogs.com/wupeixuan/p/8825617.html)|简单
+13|[罗马数字转整数](https://www.cnblogs.com/wupeixuan/p/9592231.html)|简单
 53|[最大子序和](http://www.cnblogs.com/wupeixuan/p/8721518.html)|简单
 118|[杨辉三角](https://www.cnblogs.com/wupeixuan/p/9543916.html)|简单
 169|[求众数](https://www.cnblogs.com/wupeixuan/p/9570770.html)|简单
