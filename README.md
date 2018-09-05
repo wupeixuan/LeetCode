@@ -6,6 +6,7 @@
 53|[最大子序和](http://www.cnblogs.com/wupeixuan/p/8721518.html)|简单
 118|[杨辉三角](https://www.cnblogs.com/wupeixuan/p/9543916.html)|简单
 169|[求众数](https://www.cnblogs.com/wupeixuan/p/9570770.html)|简单
+191|[位1的个数](https://www.cnblogs.com/wupeixuan/p/9593043.html)|简单
 344|[反转字符串](https://www.cnblogs.com/wupeixuan/p/9570770.html)|简单
 461|[汉明距离](https://www.cnblogs.com/wupeixuan/p/9592947.html)|简单
 521|[最长特殊序列 Ⅰ](https://www.cnblogs.com/wupeixuan/p/9579558.html)|简单
