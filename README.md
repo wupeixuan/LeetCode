@@ -6,6 +6,7 @@
 53|[最大子序和](http://www.cnblogs.com/wupeixuan/p/8721518.html)|简单
 70|[爬楼梯](https://www.cnblogs.com/wupeixuan/p/9612924.html)|简单
 88|[合并两个有序数组](https://www.cnblogs.com/wupeixuan/p/9612669.html)|简单
+104|[二叉树的最大深度](https://www.cnblogs.com/wupeixuan/p/9635184.html)|简单
 118|[杨辉三角](https://www.cnblogs.com/wupeixuan/p/9543916.html)|简单
 169|[求众数](https://www.cnblogs.com/wupeixuan/p/9570770.html)|简单
 191|[位1的个数](https://www.cnblogs.com/wupeixuan/p/9593043.html)|简单
