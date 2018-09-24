@@ -11,6 +11,7 @@
 169|[求众数](https://www.cnblogs.com/wupeixuan/p/9570770.html)|简单
 191|[位1的个数](https://www.cnblogs.com/wupeixuan/p/9593043.html)|简单
 344|[反转字符串](https://www.cnblogs.com/wupeixuan/p/9570770.html)|简单
+442|[数组中重复的数据](https://www.cnblogs.com/wupeixuan/p/9697428.html)|中等
 461|[汉明距离](https://www.cnblogs.com/wupeixuan/p/9592947.html)|简单
 500|[键盘行](https://www.cnblogs.com/wupeixuan/p/9655059.html)|简单
 521|[最长特殊序列 Ⅰ](https://www.cnblogs.com/wupeixuan/p/9579558.html)|简单
